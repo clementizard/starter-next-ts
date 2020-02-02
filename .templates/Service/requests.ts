@@ -7,4 +7,3 @@ export const getNewNamed = async () => {
 		setTimeout(() => resolve(mock), 1000);
 	});
 };
-
