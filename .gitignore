@@ -1,3 +1,7 @@
+#bundles
+#yarn.lock
+.idea
+
 # Logs
 logs
 *.log
@@ -21,7 +25,6 @@ lib-cov
 # Coverage directory used by tools like istanbul
 coverage
 *.lcov
-.idea
 
 # nyc test coverage
 .nyc_output

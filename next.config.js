@@ -1,8 +1,8 @@
 require('dotenv').config();
-const path = require('path');
+import path from 'path';
 
-const withBundleAnalyzer = require('@zeit/next-bundle-analyzer');
-const withFonts = require('next-fonts');
+import withBundleAnalyzer from '@zeit/next-bundle-analyzer';
+import withFonts from 'next-fonts';
 
 const nextConfig = {
 	env: {
